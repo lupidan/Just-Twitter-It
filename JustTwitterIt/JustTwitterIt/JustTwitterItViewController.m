@@ -378,12 +378,14 @@
 }
 
 - (void) webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
-    //Notify delegate
-    if ([self.delegate respondsToSelector:@selector(twitterDidFail:withError:)])
-        [self.delegate twitterDidFail:self withError:error];
-    //And hide overlay view
-    [self.overlayView setHidden:YES];
-    [self.activityIndicator stopAnimating];
+    if (error.code >= 400){
+        //Notify delegate
+        if ([self.delegate respondsToSelector:@selector(twitterDidFail:withError:)])
+            [self.delegate twitterDidFail:self withError:error];
+        //And hide overlay view
+        [self.overlayView setHidden:YES];
+        [self.activityIndicator stopAnimating];
+    }
 }
 
 @end
