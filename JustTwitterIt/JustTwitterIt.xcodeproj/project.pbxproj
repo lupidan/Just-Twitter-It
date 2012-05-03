@@ -18,7 +18,6 @@
 		C2EE51FB15524C8F0090F2AC /* twitter_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C2EE51F915524C8F0090F2AC /* twitter_icon.png */; };
 		C2EE51FC15524C8F0090F2AC /* twitter_leave.png in Resources */ = {isa = PBXBuildFile; fileRef = C2EE51FA15524C8F0090F2AC /* twitter_leave.png */; };
 		C2EE520015524CBE0090F2AC /* JustTwitterItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EE51FE15524CBE0090F2AC /* JustTwitterItViewController.m */; };
-		C2EE520115524CBE0090F2AC /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = C2EE51FF15524CBE0090F2AC /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +36,8 @@
 		C2EE51F115524C2F0090F2AC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		C2EE51F915524C8F0090F2AC /* twitter_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_icon.png; sourceTree = "<group>"; };
 		C2EE51FA15524C8F0090F2AC /* twitter_leave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter_leave.png; sourceTree = "<group>"; };
-		C2EE51FD15524CBE0090F2AC /* JustTwitterItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = JustTwitterItViewController.h; sourceTree = "<group>"; };
+		C2EE51FD15524CBE0090F2AC /* JustTwitterItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustTwitterItViewController.h; sourceTree = "<group>"; };
 		C2EE51FE15524CBE0090F2AC /* JustTwitterItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JustTwitterItViewController.m; sourceTree = "<group>"; };
-		C2EE51FF15524CBE0090F2AC /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,6 @@
 			children = (
 				C2EE51FD15524CBE0090F2AC /* JustTwitterItViewController.h */,
 				C2EE51FE15524CBE0090F2AC /* JustTwitterItViewController.m */,
-				C2EE51FF15524CBE0090F2AC /* LICENSE.txt */,
 				C2EE51F815524C8F0090F2AC /* Resources */,
 				C2EE51EA15524C2F0090F2AC /* AppDelegate.h */,
 				C2EE51EB15524C2F0090F2AC /* AppDelegate.m */,
@@ -174,7 +171,6 @@
 				C2EE51F215524C2F0090F2AC /* ViewController.xib in Resources */,
 				C2EE51FB15524C8F0090F2AC /* twitter_icon.png in Resources */,
 				C2EE51FC15524C8F0090F2AC /* twitter_leave.png in Resources */,
-				C2EE520115524CBE0090F2AC /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
