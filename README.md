@@ -11,3 +11,4 @@ If you want to be able to retrieve the list of followers, of messages, the menti
 
 On the other hand, if you just want to post a tweet, this code JUST TWITTER IT :)
 
+![Image 1](https://github.com/lupidan/Just-Twitter-It/raw/master/JustTwitterIt1.png "Image 1")![Image 2](https://github.com/lupidan/Just-Twitter-It/raw/master/JustTwitterIt2.png "Image 2")![Image 3](https://github.com/lupidan/Just-Twitter-It/raw/master/JustTwitterIt3.png "Image 3")
